@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build started"
+      - echo "Deploying static website to S3"
+
+artifacts:
+  files:
+    - '**/*'
+
